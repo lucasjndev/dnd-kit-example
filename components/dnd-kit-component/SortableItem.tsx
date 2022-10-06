@@ -19,8 +19,8 @@ export function SortableItem(props:any) {
   };
   
   return (
-    <div  ref={setNodeRef} style={style} {...attributes} {...listeners}>
-      <button className={styles.card} {...listeners} {...arguments}>{props.id}</button>
+    <div className={styles.componentItem} ref={setNodeRef} style={style} {...attributes} {...listeners}>
+      <button className={styles.cardItem} {...listeners} {...arguments}>{props.id}</button>
     </div>
   );
 }

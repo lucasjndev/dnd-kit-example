@@ -22,7 +22,7 @@ const list = [
   { id: 8, content: "texto" }
 ]
 export default function App() {
-  const [languages, setLanguages] = useState(["JavaScript", "Pyton", "TypeScript"])
+  const [languages, setLanguages] = useState(["Vídeo 1", "Vídeo 2", "Vídeo 3","Vídeo 4", "Vídeo 5", "Vídeo 6"])
 
   return (
     <DndContext
@@ -30,7 +30,7 @@ export default function App() {
       onDragEnd={handleDragEnd}
     >
       <div style={{ backgroundColor: "white", padding: 0, width: "50%", justifyContent: "center", textAlign: "center" }}>
-        <h3 style={{ color: "black" }}>This is one example of list of items what drag  </h3>
+        <h3 style={{ color: "black" }}> Lista com arrasta e solta. </h3>
         <div style={{ display: "flex", justifyContent: "center" }}>
           {languages.map(e =>
             <p key={e} style={{ color: "red", marginLeft: 40 }}>
