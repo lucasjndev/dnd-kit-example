@@ -107,8 +107,8 @@
   margin: 0px;
 }
 .cardItem{
-  margin: 0 ;
-  padding: 0 ;
+  margin: 1rem;
+  padding: 1rem; 
   width: "100%";
   /* text-align: center;  */
   background-color: rgb(235, 197, 125);
