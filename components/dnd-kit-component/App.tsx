@@ -31,7 +31,7 @@ export default function App() {
     >
       <div style={{ backgroundColor: "white", padding: 0, width: "50%", justifyContent: "center", textAlign: "center" }}>
         <h3 style={{ color: "black" }}> Lista com arrasta e solta. </h3>
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div style={{ display: "flex", justifyContent: "center" ,flexWrap:"wrap" }}>
           {languages.map(e =>
             <p key={e} style={{ color: "red", marginLeft: 40 }}>
               {e}
