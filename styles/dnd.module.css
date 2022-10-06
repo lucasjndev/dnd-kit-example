@@ -106,14 +106,13 @@
 .componentItem { 
   margin: 0px;
 }
-.cardItem{
-  margin: 1rem;
+.cardItem{ 
   padding: 1rem; 
   width: "100%";
   /* text-align: center;  */
   background-color: rgb(235, 197, 125);
   text-decoration: none;
-  /* border: 1px  #e40202; */
+   border: 1px  #e40202; 
   border-radius: 10px;
   
 }
