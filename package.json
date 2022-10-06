@@ -1,6 +1,7 @@
 {
-  "name": "teste-exemple",
+  "name": "dnd-kit-example",
   "version": "0.1.0",
+  "author": "Lucas J.N",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,6 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@dnd-kit/core": "^6.0.5-next-2022514174911",
+    "@dnd-kit/sortable": "^7.0.1-next-2022514171437",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
