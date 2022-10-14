@@ -8,9 +8,8 @@ const nextConfig = {
     //         // your project has type errors.
     //         // !! WARN !!
     ignoreBuildErrors: true,
-},
-}
+    pageExtensions: ["mdx", "md", "jsx", "js", "tsx", "ts"],
+  },
+};
 
-module.exports = nextConfig
-
- 
+module.exports = nextConfig;
